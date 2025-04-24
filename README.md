@@ -43,6 +43,8 @@ The task is - **inject printing a hello world at app startup**
 * Install APK `adb install -r pocket\dist\pocket.apk`
 * Observe log at start of app
 
+![It Should look like this](https://github.com/user-attachments/assets/85b90427-51f6-4718-b093-c2e2b1707494)
+
 ### Known issues
 * Firebase could not work. Not sure. Need to check it
 * In fact, if the app has signing verification → It will be broken
