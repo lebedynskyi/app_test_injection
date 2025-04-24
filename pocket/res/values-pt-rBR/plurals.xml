@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s selecionados</item>
+        <item quantity="one">%1$s selecionado</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$s️Você tem %1$d artigos não lidos.</item>
+        <item quantity="one">%2$s️Você tem %1$d artigo não lido.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d minutos</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">%1$d minutos restantes</item>
+        <item quantity="one">%1$d minuto restante</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">Leitura de %1$d minutos</item>
+        <item quantity="one">Leitura de %1$d minuto</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s itens arquivados</item>
+        <item quantity="one">%1$s item arquivado</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">Excluiu %1$s itens</item>
+        <item quantity="one">Excluiu %1$s item</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">Adicionou novamente %1$s itens</item>
+        <item quantity="one">Adicionou novamente %1$s item</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s itens</item>
+        <item quantity="one">%1$s item</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s tags</item>
+        <item quantity="one">%1$s tag</item>
+    </plurals>
+</resources>

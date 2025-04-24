@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.themed.ThemedImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+    <com.pocket.ui.view.themed.ThemedTextView android:textSize="12.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="6.0dip" />
+</merge>

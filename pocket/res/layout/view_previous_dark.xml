@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/previousItem" android:background="@drawable/pkt_ripple_borderless" android:layout_width="wrap_content" android:layout_height="@dimen/min_touch_target" android:layout_marginStart="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@null" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_pkt_back_arrow_line" android:tint="@color/pkt_dm_grey_3" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/pkt_medium_text" android:textColor="@color/pkt_dm_grey_3" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac_previous" android:paddingStart="0.0dip" android:paddingEnd="@dimen/pkt_space_sm" android:layout_marginStart="@dimen/pkt_space_sm" />
+</LinearLayout>

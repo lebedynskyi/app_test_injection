@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>推奨。&lt;/b></item>
+        <item>Pocket にのみ表示されるキャッシュをダウンロードします。</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>他のアプリでも表示されるキャッシュをダウンロードします。</item>
+        <item>ストレージが外されたり、変更されたりすると、Pocket を使用できなくなる可能性があります。</item>
+        <item>デバイスが PC に USB 接続されている間、Pocket を使用できなくなる可能性があります。</item>
+    </string-array>
+</resources>

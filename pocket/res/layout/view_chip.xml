@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.themed.ThemedImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="22.0dip" android:layout_height="22.0dip" app:tint="@color/pkt_chip_foreground" />
+    <Space android:id="@id/spaceBetweenIconAndText" android:layout_width="8.0dip" android:layout_height="0.0dip" />
+    <com.pocket.ui.view.themed.ThemedTextView android:textSize="16.0sp" android:textColor="@color/pkt_chip_foreground" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.pocket.ui.view.themed.ThemedImageView android:layout_gravity="center_vertical" android:id="@id/badge" android:layout_width="6.0dip" android:layout_height="6.0dip" android:src="@drawable/ic_circle" android:tint="@color/pkt_themed_coral_2" android:layout_marginStart="6.0dip" />
+    <com.pocket.ui.view.themed.ThemedImageView android:layout_gravity="center_vertical" android:id="@id/close" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_pkt_close_x_circle" android:tint="@color/pkt_chip_foreground" android:layout_marginStart="12.0dip" />
+</merge>

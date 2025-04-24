@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s wybranych</item>
+        <item quantity="one">%1$s wybrany</item>
+        <item quantity="few">%1$s wybrane</item>
+        <item quantity="many">%1$s wybranych</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$s️Masz %1$d nieprzeczytanego artykułu.</item>
+        <item quantity="one">%2$sMasz %1$d nieprzeczytany artykuł.</item>
+        <item quantity="few">%2$s️Masz %1$d nieprzeczytane artykuły.</item>
+        <item quantity="many">%2$s️Masz %1$d nieprzeczytanych artykułów.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d minuty</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minut</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">Jeszcze %1$d minuty</item>
+        <item quantity="one">Jeszcze %1$d minuta</item>
+        <item quantity="few">Jeszcze %1$d minuty</item>
+        <item quantity="many">Jeszcze %1$d minut</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">%1$d minuty czytania</item>
+        <item quantity="one">%1$d minuta czytania</item>
+        <item quantity="few">%1$d minuty czytania</item>
+        <item quantity="many">%1$d minut czytania</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">Zarchiwizowano %1$s elementu</item>
+        <item quantity="one">Zarchiwizowano %1$s element</item>
+        <item quantity="few">Zarchiwizowano %1$s elementy</item>
+        <item quantity="many">Zarchiwizowano %1$s elementów</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">Usunięto %1$s elementu</item>
+        <item quantity="one">Usunięto %1$s element</item>
+        <item quantity="few">Usunięto %1$s elementy</item>
+        <item quantity="many">Usunięto %1$s elementów</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">Ponownie dodano %1$s elementu</item>
+        <item quantity="one">Ponownie dodano %1$s element</item>
+        <item quantity="few">Ponownie dodano %1$s elementy</item>
+        <item quantity="many">Ponownie dodano %1$s elementów</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s elementu</item>
+        <item quantity="one">%1$s element</item>
+        <item quantity="few">%1$s elementy</item>
+        <item quantity="many">%1$s elementów</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s taga</item>
+        <item quantity="one">%1$s tag</item>
+        <item quantity="few">%1$s tagi</item>
+        <item quantity="many">%1$s tagów</item>
+    </plurals>
+</resources>

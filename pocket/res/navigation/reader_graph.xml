@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/reader_graph" app:startDestination="@id/initial"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="InitialFragment" android:name="com.pocket.app.reader.internal.initial.InitialFragment" android:id="@id/initial">
+        <argument android:name="url" app:argType="string" />
+        <action android:id="@id/switchToArticle" app:destination="@id/article" app:popUpTo="@id/initial" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToCollection" app:destination="@id/collection" app:popUpTo="@id/initial" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToOriginalWeb" app:destination="@id/originalWeb" app:popUpTo="@id/initial" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="ArticleFragment" android:name="com.pocket.app.reader.internal.article.ArticleFragment" android:id="@id/article">
+        <argument android:name="url" app:argType="string" />
+        <action android:id="@id/switchToArticle" app:destination="@id/article" app:popUpTo="@id/article" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToCollection" app:destination="@id/collection" app:popUpTo="@id/article" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToOriginalWeb" app:destination="@id/originalWeb" app:popUpTo="@id/article" app:popUpToInclusive="true" />
+        <action android:id="@id/enterArticle" app:destination="@id/article" />
+        <action android:id="@id/enterCollection" app:destination="@id/collection" />
+        <action android:id="@id/enterOriginalWeb" app:destination="@id/originalWeb" />
+    </fragment>
+    <fragment android:label="CollectionFragment" android:name="com.pocket.app.reader.internal.collection.CollectionFragment" android:id="@id/collection">
+        <argument android:name="url" app:argType="string" />
+        <argument android:name="corpusRecommendationId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/switchToArticle" app:destination="@id/article" app:popUpTo="@id/collection" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToCollection" app:destination="@id/collection" app:popUpTo="@id/collection" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToOriginalWeb" app:destination="@id/originalWeb" app:popUpTo="@id/collection" app:popUpToInclusive="true" />
+        <action android:id="@id/enterArticle" app:destination="@id/article" />
+        <action android:id="@id/enterCollection" app:destination="@id/collection" />
+        <action android:id="@id/enterOriginalWeb" app:destination="@id/originalWeb" />
+    </fragment>
+    <fragment android:label="OriginalWebFragment" android:name="com.pocket.app.reader.internal.originalweb.OriginalWebFragment" android:id="@id/originalWeb">
+        <argument android:name="url" app:argType="string" />
+        <action android:id="@id/switchToArticle" app:destination="@id/article" app:popUpTo="@id/originalWeb" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToCollection" app:destination="@id/collection" app:popUpTo="@id/originalWeb" app:popUpToInclusive="true" />
+        <action android:id="@id/switchToOriginalWeb" app:destination="@id/originalWeb" app:popUpTo="@id/originalWeb" app:popUpToInclusive="true" />
+        <action android:id="@id/enterArticle" app:destination="@id/article" />
+        <action android:id="@id/enterCollection" app:destination="@id/collection" />
+        <action android:id="@id/enterOriginalWeb" app:destination="@id/originalWeb" />
+    </fragment>
+</navigation>

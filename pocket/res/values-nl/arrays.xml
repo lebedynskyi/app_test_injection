@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Aanbevolen.&lt;/b></item>
+        <item>Downloadcache alleen zichtbaar voor Pocket.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Downloadcache zichtbaar voor andere apps.</item>
+        <item>Als je de opslaglocatie verwijdert of wijzigt, is Pocket mogelijk niet meer beschikbaar.</item>
+        <item>Als het apparaat via USB wordt aangesloten op je computer, kan Pocket mogelijk niet meer worden gebruikt.</item>
+    </string-array>
+</resources>

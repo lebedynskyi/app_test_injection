@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Empfohlen.&lt;/b></item>
+        <item>Download-Zwischenspeicher nur für Pocket sichtbar.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Download-Zwischenspeicher für andere Apps sichtbar.</item>
+        <item>Pocket kann eventuell nicht genutzt werden, wenn der Speicherort entfernt oder geändert wird.</item>
+        <item>Pocket kann eventuell nicht genutzt werden, wenn dein Gerät via USB mit deinem Computer verbunden ist.</item>
+    </string-array>
+</resources>

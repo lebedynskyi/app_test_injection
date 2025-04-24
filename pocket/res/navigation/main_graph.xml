@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/main_graph" app:startDestination="@id/home"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="HomeFragment" android:name="com.pocket.app.home.HomeFragment" android:id="@id/home">
+        <action android:id="@id/goToSlateDetails" app:destination="@id/slateDetails" />
+        <action android:id="@id/goToTopicDetails" app:destination="@id/topicDetails" />
+        <action android:id="@id/goToReader" app:destination="@id/reader" />
+        <action android:id="@id/goToSaves" app:destination="@id/saves" />
+        <action android:id="@id/goToSettings" app:destination="@id/settings" />
+    </fragment>
+    <fragment android:label="MyListFragment" android:name="com.pocket.app.list.MyListFragment" android:id="@id/saves">
+        <action android:id="@id/goToReader" app:destination="@id/reader" />
+        <action android:id="@id/goToHome" app:popUpTo="@id/home" />
+        <action android:id="@id/goToSettings" app:destination="@id/settings" app:popUpTo="@id/home" />
+    </fragment>
+    <fragment android:label="PrefsFragment" android:name="com.pocket.app.settings.PrefsFragment" android:id="@id/settings">
+        <action android:id="@id/goToSaves" app:destination="@id/saves" app:popUpTo="@id/home" />
+        <action android:id="@id/goToHome" app:popUpTo="@id/home" />
+        <action android:id="@id/goToReader" app:destination="@id/reader" />
+        <action android:id="@id/goToAppIconSettings" app:destination="@id/appIconSettings" />
+        <action android:id="@id/goToOpenSourceLicenses" app:destination="@id/openSourceLicenses" />
+    </fragment>
+    <fragment android:label="SlateDetailsFragment" android:name="com.pocket.app.home.details.slates.SlateDetailsFragment" android:id="@id/slateDetails">
+        <argument android:name="index" app:argType="integer" />
+        <action android:id="@id/slateDetailsToReader" app:destination="@id/reader" />
+    </fragment>
+    <fragment android:label="TopicDetailsFragment" android:name="com.pocket.app.home.details.topics.TopicDetailsFragment" android:id="@id/topicDetails">
+        <argument android:name="topicId" app:argType="string" />
+        <action android:id="@id/topicDetailsToReader" app:destination="@id/reader" />
+    </fragment>
+    <fragment android:label="ReaderFragment" android:name="com.pocket.app.reader.ReaderFragment" android:id="@id/reader">
+        <argument android:name="url" app:argType="string" />
+        <argument android:name="queueType" app:argType="com.pocket.app.reader.queue.InitialQueueType" />
+        <argument android:name="queueStartingIndex" app:argType="integer" />
+    </fragment>
+    <fragment android:name="com.pocket.app.settings.appicon.AppIconSettingsFragment" android:id="@id/appIconSettings" />
+    <fragment android:name="com.pocket.app.settings.OpenSourceLicensesFragment" android:id="@id/openSourceLicenses" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/pkt_themed_grey_3" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="root" android:translateX="12.0" android:translateY="12.0">
+        <path android:name="progressBar" android:fillColor="#00000000" android:pathData="M0, 0 m 0, -11 a 11,11 0 1,1 0,22 a 11,11 0 1,1 0,-22 a 11,11 0 1,1 0,22 a 11,11 0 1,1 0,-22" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathStart="0.0" android:trimPathEnd="1.0" android:trimPathOffset="0.0" android:strokeLineCap="round" android:strokeLineJoin="miter" />
+    </group>
+</vector>

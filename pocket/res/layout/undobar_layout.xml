@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:id="@id/container_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/undobar" style="@style/UndoBar">
+        <LinearLayout android:id="@id/regular_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/undobar_message" style="@style/UndoBarMessage" />
+            <View android:layout_gravity="center_vertical" android:id="@id/divider" android:background="#99ffffff" android:layout_width="1.0dip" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <Button android:id="@id/undobar_button" style="@style/UndoBarButton" />
+        </LinearLayout>
+        <TextView android:id="@id/confimation_textView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" style="@style/UndoBarMessage" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s件選択しました</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$s️未読の記事が%1$d件あります。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">あと%1$d分</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">読了まで%1$d分</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s件のアイテムをアーカイブしました</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">%1$s件のアイテムを削除しました</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">%1$s件のアイテムを再追加しました</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s件のアイテム</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s件のタグ</item>
+    </plurals>
+</resources>

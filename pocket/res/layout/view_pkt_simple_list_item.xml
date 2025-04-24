@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.ui.view.themed.ThemedFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_vertical" android:id="@android:id/text1" android:background="@drawable/cl_pkt_touchable_area" android:paddingLeft="@dimen/pkt_side_grid" android:paddingRight="@dimen/pkt_side_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="51.0dip" android:paddingStart="@dimen/pkt_side_grid" android:paddingEnd="@dimen/pkt_side_grid" style="@style/Pkt_Text_Medium" />
+    <com.pocket.ui.view.themed.ThemedView style="@style/Pkt_ThinDivider" />
+</com.pocket.ui.view.themed.ThemedFrameLayout>

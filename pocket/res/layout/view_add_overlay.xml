@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.themed.ThemedLinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/overlay_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pkt_space_sm" android:layout_marginRight="@dimen/pkt_space_sm" android:layout_marginStart="@dimen/pkt_space_sm" android:layout_marginEnd="@dimen/pkt_space_sm">
+        <com.pocket.ui.view.themed.ThemedLinearLayout android:orientation="horizontal" android:id="@id/saved" android:background="@drawable/pkt_ripple_borderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pkt_side_grid" android:layout_marginTop="@dimen/pkt_space_md" android:layout_marginRight="@dimen/pkt_side_grid" android:layout_marginBottom="@dimen/pkt_space_md" android:layout_weight="1.0" android:layout_marginStart="@dimen/pkt_side_grid" android:layout_marginEnd="@dimen/pkt_side_grid">
+            <com.pocket.ui.view.button.IconButton android:id="@id/save_icon" android:background="@null" android:focusable="false" android:clickable="false" android:longClickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/Pkt_IconButton_Save" />
+            <com.pocket.ui.view.checkable.CheckableTextView android:id="@id/save_label" android:focusable="false" android:clickable="false" android:longClickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pkt_space_sm" app:compatTextColor="@color/pkt_nst_clickable_grey_3" app:paddingVerticalCenter="true" style="@style/Pkt_Text_LightTitle" />
+        </com.pocket.ui.view.themed.ThemedLinearLayout>
+        <com.pocket.ui.view.themed.ThemedView android:id="@id/divider" android:layout_width="@dimen/pkt_thin_divider_height" android:layout_height="fill_parent" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" style="@style/Pkt_ThinDivider" />
+        <com.pocket.ui.view.button.IconButton android:id="@id/tag" android:layout_height="fill_parent" style="@style/Pkt_IconButton_AddTags" />
+    </com.pocket.ui.view.themed.ThemedLinearLayout>
+    <com.pocket.ui.view.progress.FullscreenProgressView android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

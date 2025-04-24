@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Recomendada.&lt;/b></item>
+        <item>Caché descargada visible solo desde Pocket.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Caché descargada visible desde otras aplicaciones.</item>
+        <item>Pocket podría no funcionar si la ubicación de almacenamiento se elimina o se modifica.</item>
+        <item>Es posible que Pocket no funcione mientras tu dispositivo está conectado al ordenador a través de un cable USB.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>建議。&lt;/b></item>
+        <item>僅下載 Pocket 可見的快取。</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>下載其他應用程式可見的快取。</item>
+        <item>若儲存位置經過移除或更動，Pocket 可能變得無法使用。</item>
+        <item>當您的裝置經由 USB 連接電腦時，Pocket 可能無法使用。</item>
+    </string-array>
+</resources>

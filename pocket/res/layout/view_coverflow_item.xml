@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.item.ItemThumbnailView android:id="@id/coverflow_item" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/pkt_space_sm" android:layout_marginRight="@dimen/pkt_space_sm" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

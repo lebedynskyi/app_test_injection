@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.themed.ThemedTextView android:gravity="center" android:id="@id/text" android:paddingLeft="@dimen/pkt_side_grid" android:paddingRight="@dimen/pkt_side_grid" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pkt_space_md" android:paddingStart="@dimen/pkt_side_grid" android:paddingEnd="@dimen/pkt_side_grid" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:typeface="doyle_medium" style="@style/Pkt_Text_Mini_Medium" />
+    <com.pocket.ui.view.animated.BottomFeedAnimationView android:id="@id/animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pkt_space_lg" android:layout_marginBottom="@dimen/pkt_space_md" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="false" app:lottie_loop="false" />
+</merge>

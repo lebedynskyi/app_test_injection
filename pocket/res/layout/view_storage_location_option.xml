@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.util.android.view.ResizeDetectRelativeLayout android:padding="@dimen/pkt_space_sm" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.menu.RadioButton android:id="@id/radio" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    <com.pocket.ui.view.themed.ThemedTextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/radio" android:layout_toEndOf="@id/radio" style="@style/Pkt_Text_Title" />
+    <com.pocket.ui.view.themed.ThemedTextView android:id="@id/sub_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/label" android:layout_alignLeft="@id/label" android:layout_alignStart="@id/label" style="@style/Pkt_Text_Small_LightTitle" />
+    <com.pocket.ui.view.themed.ThemedTextView android:id="@id/bullets" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-5.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/sub_label" android:layout_alignLeft="@id/sub_label" android:layout_marginStart="-5.0dip" android:layout_alignStart="@id/sub_label" app:lineHeight="20.0sp" style="@style/Pkt_Text_Small_Medium" />
+</com.pocket.util.android.view.ResizeDetectRelativeLayout>

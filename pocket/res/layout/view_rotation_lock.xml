@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.checkable.CheckableImageView android:layout_gravity="center" android:id="@id/rotation_lock_toggle" android:padding="@dimen/pkt_space_md" android:visibility="gone" android:layout_width="88.0dip" android:layout_height="88.0dip" />
+</merge>

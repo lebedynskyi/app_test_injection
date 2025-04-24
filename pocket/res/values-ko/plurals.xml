@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s개 선택됨</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$s️읽지 않은 아티클 %1$d개가 있습니다.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">%1$d분 남음</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">%1$d분 읽기</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s개 항목 보관됨</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">%1$s개 항목 삭제됨</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">%1$s개 항목 다시 추가됨</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s개 항목</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s개 태그</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.edittext.PktEditText android:id="@id/edit_text" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.pocket.ui.view.edittext.CharCounter android:id="@id/char_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

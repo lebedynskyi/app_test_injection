@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="true" android:state_pressed="true" android:color="@color/pkt_dm_grey_5" app:state_dark="true" />
+    <item android:state_enabled="true" android:state_checked="true" android:color="@color/pkt_dm_grey_1" app:state_dark="true" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="@color/pkt_dm_grey_1" app:state_dark="true" />
+    <item android:state_enabled="true" android:state_pressed="true" android:color="@color/pkt_grey_5" />
+    <item android:state_enabled="true" android:state_checked="true" android:color="@color/pkt_grey_2" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="@color/pkt_grey_2" />
+    <item android:color="@color/pkt_nst_disableable_grey_3" />
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.button.IconButton android:id="@id/save_icon" android:background="@null" android:focusable="false" android:clickable="false" android:longClickable="false" android:duplicateParentState="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerInside" android:contentDescription="@null" app:drawableColor="@color/pkt_themed_coral_2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Pkt_IconButton_Save" />
+    <com.pocket.ui.view.checkable.CheckableTextView android:textSize="14.0sp" android:id="@id/save_label" android:focusable="false" android:clickable="false" android:longClickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/ac_save" app:compatTextColor="@color/pkt_home_domain_text" app:lastBaselineToBottomHeight="6.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/save_icon" app:layout_constraintTop_toTopOf="parent" app:typeface="graphik_lcg_medium" />
+</merge>

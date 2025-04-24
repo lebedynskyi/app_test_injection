@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="pkt_bottom_sheet_margin">@dimen/pkt_space_lg</item>
+    <item type="dimen" name="pkt_side_grid">@dimen/pkt_space_lg</item>
+    <dimen name="pkt_side_grid_icon_mini">23.0dip</dimen>
+    <item type="dimen" name="pkt_side_sm">@dimen/pkt_space_md</item>
+</resources>

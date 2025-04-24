@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.ui.view.themed.ThemedRelativeLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pocket="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.AppBar android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" pocket:leftIcon="up" />
+    <com.pocket.ui.view.empty.LoadableLayout android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar" />
+    <com.pocket.ui.view.themed.ThemedRecyclerView android:id="@id/list" android:background="@drawable/cl_pkt_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar" />
+</com.pocket.ui.view.themed.ThemedRelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s выбрано</item>
+        <item quantity="one">%1$s выбрано</item>
+        <item quantity="few">%1$s выбрано</item>
+        <item quantity="many">%1$s выбрано</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$s️У вас %1$d непрочитанные статьи.</item>
+        <item quantity="one">%2$s️У вас %1$d непрочитанная статья.</item>
+        <item quantity="few">%2$s️У вас %1$d непрочитанные статьи.</item>
+        <item quantity="many">%2$s️У вас %1$d непрочитанных статей.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d мин.</item>
+        <item quantity="one">%1$d мин.</item>
+        <item quantity="few">%1$d мин.</item>
+        <item quantity="many">%1$d мин.</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">Осталось %1$d мин.</item>
+        <item quantity="one">Осталось %1$d мин.</item>
+        <item quantity="few">Осталось %1$d мин.</item>
+        <item quantity="many">Осталось %1$d мин.</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">%1$d мин. прочитано</item>
+        <item quantity="one">%1$d мин. прочитано</item>
+        <item quantity="few">%1$d мин. прочитано</item>
+        <item quantity="many">%1$d мин. прочитано</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s материала перенесено в архив</item>
+        <item quantity="one">%1$s материал перенесен в архив</item>
+        <item quantity="few">%1$s материала перенесено в архив</item>
+        <item quantity="many">%1$s материалов перенесено в архив</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">Удалено %1$s материала</item>
+        <item quantity="one">Удален %1$s материал</item>
+        <item quantity="few">Удалено %1$s материала</item>
+        <item quantity="many">Удалено %1$s материалов</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">%1$s материала добавлено вновь</item>
+        <item quantity="one">%1$s материал добавлен вновь</item>
+        <item quantity="few">%1$s материала добавлено вновь</item>
+        <item quantity="many">%1$s материалов добавлено вновь</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s материала</item>
+        <item quantity="one">%1$s материал</item>
+        <item quantity="few">%1$s материала</item>
+        <item quantity="many">%1$s материалов</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s тега</item>
+        <item quantity="one">%1$s тег</item>
+        <item quantity="few">%1$s тега</item>
+        <item quantity="many">%1$s тегов</item>
+    </plurals>
+</resources>

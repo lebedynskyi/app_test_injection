@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.ui.view.themed.ThemedConstraintLayout2 android:tag="layout/fragment_text_settings_bottom_sheet_0" android:background="@drawable/bg_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.menu.DisplaySettingsView android:id="@id/settingsView" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.pocket.ui.view.themed.ThemedConstraintLayout2>

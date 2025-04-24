@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>推荐。&lt;/b></item>
+        <item>下载仅在 Pocket 上可查看的缓存。</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>下载仅在其他应用程序上可查看的缓存。</item>
+        <item>如果已删除或更改存储位置，可能将无法使用 Pocket。</item>
+        <item>如果您的设备是通过 USB 连接至计算机，可能将无法使用 Pocket。</item>
+    </string-array>
+</resources>

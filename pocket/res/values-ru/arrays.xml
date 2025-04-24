@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Рекомендовано.&lt;/b></item>
+        <item>Кэш скачанных файлов доступен только для Pocket.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Кэш скачанных файлов доступен другим приложениям.</item>
+        <item>Pocket может работать некорректно, если местоположение хранилища изменено или удалено.</item>
+        <item>Pocket может работать некорректно, если устройство подключено к компьютеру в качестве USB-накопителя.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.ui.view.button.IconButton android:id="@id/clear" android:paddingLeft="@dimen/pkt_space_sm" android:paddingRight="@dimen/pkt_space_sm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/ac_clear" style="@style/Pkt_IconButton_X"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

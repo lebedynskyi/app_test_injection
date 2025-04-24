@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.themed.ThemedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/previousItem" android:background="@drawable/pkt_ripple_borderless" android:layout_width="wrap_content" android:layout_height="@dimen/min_touch_target" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:uiEntityIdentifier="item_previous">
+        <com.pocket.ui.view.button.IconButton android:background="@null" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:contentDescription="@null" style="@style/Pkt_IconButton_Previous" />
+        <com.pocket.ui.view.themed.ThemedTextView android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac_previous" android:paddingEnd="@dimen/pkt_space_sm" android:layout_marginStart="@dimen/pkt_space_sm" app:paddingVerticalCenter="true" style="@style/Pkt_Text_LightTitle" />
+    </com.pocket.ui.view.themed.ThemedLinearLayout>
+    <com.pocket.ui.view.themed.ThemedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nextItem" android:background="@drawable/pkt_ripple_borderless" android:layout_width="wrap_content" android:layout_height="@dimen/min_touch_target" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:uiEntityIdentifier="item_next">
+        <com.pocket.ui.view.themed.ThemedTextView android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac_next" android:paddingStart="@dimen/pkt_space_sm" android:layout_marginEnd="@dimen/pkt_space_sm" app:paddingVerticalCenter="true" style="@style/Pkt_Text_LightTitle" />
+        <com.pocket.ui.view.button.IconButton android:background="@null" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:contentDescription="@null" style="@style/Pkt_IconButton_Next" />
+    </com.pocket.ui.view.themed.ThemedLinearLayout>
+</merge>

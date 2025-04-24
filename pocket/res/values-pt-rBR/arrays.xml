@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Recomendado.&lt;/b></item>
+        <item>Cache do download visível somente no Pocket.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Cache do download visível em outros aplicativos.</item>
+        <item>O Pocket pode ficar indisponível se o local de armazenamento for removido ou modificado.</item>
+        <item>O Pocket pode ficar inutilizável quando seu dispositivo estiver conectado ao seu computador via USB.</item>
+    </string-array>
+</resources>

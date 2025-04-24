@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s 已选择</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$s️您有 %1$d 份未读文本。</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">还剩 %1$d 分钟</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">读完需要 %1$d 分钟</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">已存档 %1$s 个项目</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">已删除 %1$s 个项目</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">已重新添加 %1$s 个项目</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s 个项目</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s 个标记</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s selezionati</item>
+        <item quantity="one">%1$s selezionato</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$sHai %1$d articoli non letti.</item>
+        <item quantity="one">%2$sHai %1$d articolo non letto.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">%1$d min rimanenti</item>
+        <item quantity="one">%1$d min rimanente</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">%1$d min di lettura</item>
+        <item quantity="one">%1$d min di lettura</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s contenuti archiviati</item>
+        <item quantity="one">%1$s contenuto archiviato</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">%1$s contenuti eliminati</item>
+        <item quantity="one">%1$s contenuto eliminato</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">%1$s contenuti aggiunti di nuovo</item>
+        <item quantity="one">%1$s contenuto aggiunto di nuovo</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s contenuti</item>
+        <item quantity="one">%1$s contenuto</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s tag</item>
+        <item quantity="one">%1$s tag</item>
+    </plurals>
+</resources>

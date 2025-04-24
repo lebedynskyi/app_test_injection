@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s seleccionados</item>
+        <item quantity="one">%1$s seleccionado</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$sTienes %1$d artículos sin leer.</item>
+        <item quantity="one">%2$sTienes %1$d artículo sin leer.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">Queda %1$d minutos</item>
+        <item quantity="one">Queda %1$d minuto</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">Lectura de %1$d minutos</item>
+        <item quantity="one">Lectura de %1$d minuto</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s enlaces archivados</item>
+        <item quantity="one">%1$s enlace archivado</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">%1$s enlaces eliminados</item>
+        <item quantity="one">%1$s enlace eliminado</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">%1$s enlaces vueltos a agregar</item>
+        <item quantity="one">%1$s enlace vuelto a agregar</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s enlaces</item>
+        <item quantity="one">%1$s enlace</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s etiquetas</item>
+        <item quantity="one">%1$s etiqueta</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.ui.view.themed.ThemedConstraintLayout2 android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pocket.ui.view.themed.ThemedTextView android:textSize="17.0sp" android:textColor="@color/pkt_themed_grey_1" android:id="@id/topicTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:fontFamily="@font/graphik" android:textFontWeight="500" app:layout_constraintEnd_toStartOf="@id/chevron" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.pocket.ui.view.themed.ThemedImageView android:id="@id/chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pkt_forward_chevron_line" android:tint="@color/pkt_themed_grey_6" app:layout_constraintBottom_toBottomOf="@id/topicTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/topicTitle" />
+    <com.pocket.ui.view.themed.ThemedView android:layout_width="fill_parent" android:layout_marginTop="11.0dip" app:layout_constraintTop_toBottomOf="@id/topicTitle" style="@style/Pkt_ThinDivider" />
+</com.pocket.ui.view.themed.ThemedConstraintLayout2>

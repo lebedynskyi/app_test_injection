@@ -1,0 +1,67 @@
+version: 2.10.0
+apkFileName: pocket.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 83203000
+  versionName: 8.32.3.0
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  billing-ktx.properties: 8
+  billing.properties: 8
+  client_analytics.proto: 8
+  core.properties: 8
+  firebase-annotations.properties: 8
+  firebase-encoders-json.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-measurement-connector.properties: 8
+  kotlin-tooling-metadata.json: 8
+  messaging_event.proto: 8
+  messaging_event_extension.proto: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-location.properties: 8
+  play-services-places-placereport.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+  org/commonmark/internal/util/entities.properties: 8
+  org/threeten/bp/format/ChronologyText.properties: 8
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- lib/arm64-v8a/libandroidx.graphics.path.so
+- lib/arm64-v8a/libsentry-android.so
+- lib/arm64-v8a/libsentry.so
+- lib/armeabi-v7a/libandroidx.graphics.path.so
+- lib/armeabi-v7a/libsentry-android.so
+- lib/armeabi-v7a/libsentry.so
+- lib/x86/libandroidx.graphics.path.so
+- lib/x86/libsentry-android.so
+- lib/x86/libsentry.so
+- lib/x86_64/libandroidx.graphics.path.so
+- lib/x86_64/libsentry-android.so
+- lib/x86_64/libsentry.so
+- webp
+- res/raw/com_android_billingclient_heterodyne_info
+- res/raw/com_android_billingclient_registration_info.binarypb
+- mp3
+- wav

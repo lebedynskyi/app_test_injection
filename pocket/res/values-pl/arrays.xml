@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Zalecenie.&lt;/b></item>
+        <item>Pliki pobrane do pamięci podręcznej widoczne jedynie dla aplikacji Pocket.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Pliki pobrane do pamięci podręcznej widoczne dla innych aplikacji.</item>
+        <item>Aplikacja Pocket może być niedostępna, jeśli lokalizacja przechowywania zostanie usunięta lub zmieniona.</item>
+        <item>Gdy urządzenie jest podłączone do gniazda USB komputera, korzystanie z aplikacji Pocket może być niemożliwe.</item>
+    </string-array>
+</resources>

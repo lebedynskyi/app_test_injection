@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/pkt_title_logo_dark" app:state_dark="true" />
+    <item android:drawable="@drawable/pkt_title_logo_light" />
+</animated-selector>

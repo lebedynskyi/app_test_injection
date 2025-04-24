@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storage_location_specs_internal">
+        <item>&lt;b>Raccomandati.&lt;/b></item>
+        <item>Scarica cache solo visibile a Pocket.</item>
+    </string-array>
+    <string-array name="storage_location_specs_removable">
+        <item>Scarica cache visibile ad altre applicazioni.</item>
+        <item>Pocket potrebbe non essere disponibile se il percorso di archiviazione viene rimosso o alterato.</item>
+        <item>Pocket potrebbe essere inutilizzabile se il tuo dispositivo è connesso con il computer via USB.</item>
+    </string-array>
+</resources>

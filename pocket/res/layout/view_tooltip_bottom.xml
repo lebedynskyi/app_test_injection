@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.themed.ThemedImageView android:layout_gravity="center_horizontal" android:id="@id/illustration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pkt_space_md" android:layout_marginBottom="@dimen/pkt_space_md" />
+    <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pkt_space_md" style="@style/Pkt_Text_Title" />
+    <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_horizontal" android:id="@id/message" android:paddingLeft="@dimen/pkt_side_grid" android:paddingRight="@dimen/pkt_side_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Pkt_Text_Medium" />
+    <com.pocket.ui.view.button.BoxButton android:layout_gravity="center_horizontal" android:id="@id/button_positive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pkt_space_md" android:minWidth="152.0dip" />
+    <com.pocket.ui.view.themed.ThemedTextView android:layout_gravity="center_horizontal" android:id="@id/button_neutral" android:padding="@dimen/pkt_space_md" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pkt_space_md" style="@style/Pkt_Text_Light" />
+</merge>

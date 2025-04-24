@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="280.0dip" />
+    <com.pocket.ui.view.visualmargin.VisualMarginConstraintLayout android:id="@id/caption_wrap" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/image">
+        <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:visualMargin_top="@dimen/pkt_space_md" style="@style/Pkt_Text_Title" />
+        <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_horizontal" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:visualMargin_top="@dimen/pkt_space_md" style="@style/Pkt_Text_Small_Medium" />
+    </com.pocket.ui.view.visualmargin.VisualMarginConstraintLayout>
+</merge>

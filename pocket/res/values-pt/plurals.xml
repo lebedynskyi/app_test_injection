@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lb_selected">
+        <item quantity="other">%1$s selecionados</item>
+        <item quantity="one">%1$s selecionado</item>
+    </plurals>
+    <plurals name="listen_my_list_toast_title">
+        <item quantity="other">%2$sTem %1$d artigos por ler.</item>
+        <item quantity="one">%2$sTem %1$d artigo por ler.</item>
+    </plurals>
+    <plurals name="nm_time_estimate">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="nm_time_left_estimate">
+        <item quantity="other">Restam %1$d min</item>
+        <item quantity="one">Resta %1$d min</item>
+    </plurals>
+    <plurals name="nm_time_to_read_estimate">
+        <item quantity="other">%1$d min de leitura</item>
+        <item quantity="one">%1$d min de leitura</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_archived">
+        <item quantity="other">%1$s itens arquivados</item>
+        <item quantity="one">%1$s item arquivado</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_deleted">
+        <item quantity="other">%1$s itens eliminados</item>
+        <item quantity="one">%1$s item eliminado</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_readded">
+        <item quantity="other">%1$s itens readicionados</item>
+        <item quantity="one">%1$s item readicionado</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_items">
+        <item quantity="other">%1$s itens</item>
+        <item quantity="one">%1$s item</item>
+    </plurals>
+    <plurals name="ts_bulk_edit_tagged_tags">
+        <item quantity="other">%1$s etiquetas</item>
+        <item quantity="one">%1$s etiqueta</item>
+    </plurals>
+</resources>

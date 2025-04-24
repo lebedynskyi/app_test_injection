@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.ui.view.themed.ThemedLinearLayout android:orientation="vertical" android:paddingTop="@dimen/pkt_space_lg" android:paddingBottom="@dimen/pkt_space_lg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:paddingBottom="@dimen/pkt_space_md" android:layout_width="300.0dip" android:layout_height="wrap_content" android:text="@string/add_tags_list_empty_title" style="@style/Pkt_Text_Title" />
+    <com.pocket.ui.view.themed.ThemedTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="300.0dip" android:layout_height="wrap_content" android:text="@string/add_tags_list_empty_body" style="@style/Pkt_Text_Small_Light" />
+</com.pocket.ui.view.themed.ThemedLinearLayout>

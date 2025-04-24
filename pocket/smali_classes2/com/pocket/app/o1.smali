@@ -1,0 +1,15 @@
+.class public final Lcom/pocket/app/o1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static a:Ljava/lang/String; = "com.pocket.app.l1"
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
